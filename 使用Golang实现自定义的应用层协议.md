@@ -12,7 +12,7 @@ categories:
 <!-- more -->
 ----------------
 代码地址：https://github.com/xyb-blog-example/tcp-server/tree/master/v1
-测试
+测
 # 服务端
 &emsp;&emsp;作为服务端对外提供服务，首先要监听端口，然后接受客户端的连接，建立连接后对客户端的输入进行处理，当然最好情况是能够同时处理多个客户端的输入。所以每当与一个客户端建立一个连接后，就启动一个goroutine，每个goroutine维护一个单独连接。代码如下：
 
