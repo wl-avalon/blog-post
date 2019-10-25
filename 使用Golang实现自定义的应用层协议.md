@@ -1,5 +1,7 @@
+---
 title: 使用Golang自定义基于Tcp的应用层协议 1:Hello World
-date: 2018年10月09日
+date: 2018-10-09
+updated: 2019-10-25
 tags:
  - Golang
  - 网络协议
